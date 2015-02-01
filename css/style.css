@@ -1,0 +1,44 @@
+/*CSS重置*/
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 62.5%;}
+body { background: #ffe; color: #000; font-size:62.5%;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, select, option { margin: 0; padding: 0; border: 0; vertical-align: baseline; font-family: "微软雅黑", Arial, Helvetica, sans-serif; -webkit-text-size-adjust:none;  }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+img, iframe, fieldset, button, input { border: none; }
+img { vertical-align:top; }
+ul, ol, li { list-style: none; }
+em, i { font-style: normal; }
+table { border-collapse: collapse; border-spacing: 0; }
+table, th, td { vertical-align: top; }
+input, button { margin: 0; vertical-align: top; }
+button { display : inline-block; overflow: visible; width: auto; outline: none; border: none; background: none; text-align: center; cursor: pointer; }
+button::-moz-focus-inner {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a, button, input, div, li { -webkit-tap-highlight-color: rgba(255,0,0,0); }
+/*去除android链接触摸时产生边框*/
+a { color: #3e3e3e; outline: none;text-decoration: none; }
+
+/*正文*/
+#ad_img1 img{
+    width: 100%;
+}
+#link_img a img{
+    display: block;width: 100%;
+}
+#ad_img2 img{
+    width: 100%;
+}
+#footer{
+    background-color: #b60101; position: fixed; height: 7%; width:100%;bottom: -1px;left: 0px;
+}
+#footer img{
+    display:block;height: 80%; margin: 4px 5px 4px 15px;border-radius: 4px;
+}
+#footer ul{
+    list-style: none;
+}
+#footer ul li{}
+#footer a{}
