@@ -32,13 +32,15 @@ a { color: #3e3e3e; outline: none;text-decoration: none; }
     width: 100%;
 }
 #footer{
-    background-color: #b60101; position: fixed; height: 7%; width:100%;bottom: -1px;left: 0px;
+    background-color: #b60101; position: fixed; height: 7%; width:100%;bottom: -1px;left: 0px;box-shadow: 0 0 10px red;
 }
 #footer img{
-    display:block;height: 80%; margin: 4px 5px 4px 15px;border-radius: 4px;
+    height: 80%; margin: 4px 5px 4px 15px;border-radius: 4px; float: left;
 }
 #footer ul{
-    list-style: none;
+    list-style: none;display: block;margin-top: 4px; margin-left: 60px;color: white;
 }
 #footer ul li{}
-#footer a{}
+#footer a{
+    border: 1px solid #36cc0a;float: right;margin-right: 20px;margin-top: -25px;padding: 3px;color: white;border-radius: 3px;
+}
